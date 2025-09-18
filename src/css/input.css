@@ -3,5 +3,19 @@
 @import "tailwindcss";
 
 @theme {
+  --color-primary: #414141;
+  --color-secondary: #BFBFBF;
+  --color-tertiary: #606060;
+  --color-accent: #70C05B;
   --font-primary: Rubik;
+}
+
+@layer{
+  .section-container {
+    @apply max-w-[1240px] container mx-auto px-4 pt-10;
+  }
+}
+
+.footer-bg {
+  background-image: url('../images/footerBg.png');
 }
